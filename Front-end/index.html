@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <title>Green Supermarket</title>
+    <link rel="stylesheet" type="text/css" href="index.css">
+
+    <!-- Add meta tags to control caching -->
+    <meta name="cache-control" content="no-cache, no-store, must-revalidate">
+    <meta name="pragma" content="no-cache">
+    <meta name="expires" content="0">
+</head>
+
+<body>
+
+    <!-- Loading Screen with Image and Text -->
+    <div id="loading-screen">
+        <img id="loading-image" src="logo_trial.png" alt="Loading Image">
+        <div id="loading-text">Welcome to Greens Supermarket</div>
+        <div id="additional-text">Quality products for a healthier lifestyle</div>
+    </div>
+
+    <script>
+        // Simulating image loading delay 
+        setTimeout(function () {
+            // Redirect to the Welcome.jsp
+         window.location.href = "Welcome.jsp";
+        }, 5000);
+    </script>
+
+</body>
+
+</html>
