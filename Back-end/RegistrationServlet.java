@@ -69,7 +69,7 @@ public class RegistrationServlet extends HttpServlet {
     }
 
     private boolean isValidEmail(String email) {
-        // Add your email validation logic here
+       
         return email != null && email.contains("@");
     }
 
