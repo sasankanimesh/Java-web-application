@@ -79,7 +79,7 @@ public class RegistrationServlet extends HttpServlet {
     }
 
     private boolean isValidPhoneNumber(String phone) {
-        // Add your phone number validation logic here
+       
         return phone != null && phone.matches("\\d{10}");
     }
 }
